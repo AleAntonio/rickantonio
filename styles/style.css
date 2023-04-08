@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*comienzo de estilos en header*/
+header {
+  background-color: rgb(61, 155, 155);
+  padding: 20px;
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-style: italic;
+  font-size: 70px;
+}
+header div {
+  background-color: brown;
+}
+
+header div img {
+  width: 150px;
+  background-color: rgb(18, 132, 207);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li {
+  padding: 10px;
+  margin: 10px;
+  background-color: chocolate;
+}
+header nav ul li a {
+  color: darkblue;
+}
+/*comienzo de estilos en main*/
+main{
+  background-image: url(https://i.ytimg.com/vi/jQzLjISEeas/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  background-color: coral;
+  padding: 20px;
+  box-sizing: border-box;
+}
+main h2 {
+  background-color: rgb(44, 70, 221);
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 15px;
+  text-decoration: aliceblue;
+}
+
+main p {
+  
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(201, 184, 160);
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.grid-item {
+  width: 100%;
+  background-color: rgb(132, 121, 202);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px;
+}
+
+
+.grid-item img {
+  text-align: center;
+  width: 100px;
+  border-radius: 50px;
+}
+.article{
+  padding: 10px;
+  box-shadow: 0px 0px 1px #000;
+}
+
+/*comienzo de estilos de footer*/
+
+footer {
+  background-color: rgb(122, 230, 171);
+  padding: 10px;
+  display: flex;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div nav ul {
+  list-style: none;
+}
+footer div nav ul li {
+  padding: 5px;
+  margin: 5px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*media querie o punto de quibre*/
+/*para tablet*/
+
+@media (max-width: 880px) {
+  header {
+    background-color: greenyellow;
+    flex-direction: column;
+  }
+  main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3m_eXecxcCiA7Fiu3RXLkZp4jYP3q6mFGA&usqp=CAU);
+    background-size: cover;
+  }
+  footer {
+    background-color: darkkhaki;
+  }
+}
+/*para celular*/
+
+@media (max-width: 480px) {
+  header {
+    background-color: deeppink;
+    flex-direction: column;
+  }
+  header ul {
+    flex-direction: column;
+  }
+  main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3m_eXecxcCiA7Fiu3RXLkZp4jYP3q6mFGA&usqp=CAU);
+    background-size: cover;
+  }
+  footer {
+    background-color: darkkhaki;
+  }
+}
