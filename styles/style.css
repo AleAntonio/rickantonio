@@ -100,7 +100,7 @@ main p {
 /*comienzo de estilos de footer*/
 
 footer {
-  background-color: rgb(122, 230, 171);
+  background-color: rgb(211, 203, 131);
   padding: 10px;
   display: flex;
   font-size: 15px;
@@ -141,8 +141,9 @@ footer div nav ul li {
 
 @media (max-width: 480px) {
   header {
-    background-color: deeppink;
+    background-color: rgb(201, 122, 164);
     flex-direction: column;
+    
   }
   header ul {
     flex-direction: column;

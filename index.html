@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    
     <header>
       <div>
         <img
@@ -16,18 +15,27 @@
           alt="imagen de rick and morty"
         />
       </div>
+
       <h1>Rick and Morty</h1>
+
       <nav>
-        <ul>
-          <li><a href="/">Biografia</a></li>
-          <li><a href="/">Sinopsis</a></li>
-          <li><a href="/">Personajes</a></li>
-          <li><a href="/">Mira la serie por HBO MAX</a></li>
+
+        <ul class="nav-links"></ul class> >
+        
+      <ul>
+        
+      
+          <li><a href="#biografia">Biografia</a></li>
+          <li><a href="#sinopsis">Sinopsis</a></li>
+          <li><a href="#personajes">Personajes</a></li>
+          <li><a href="#Mira la serie">Mira la serie</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <!--Comienzo seccion biografia-->
+
       <section id="biografia" class="biografia">
         <h2>Biografia</h2>
         <p>
@@ -53,7 +61,7 @@
             alt="imagen de sinopsis"
           />
         </div>
-        
+
         <p>
           Rick Sanchez es un científico loco que, tras muchos añosalejado de su
           familia, se instala junto a su hija, Beth, su marido Jerry Smith, y
@@ -69,7 +77,7 @@
       </section>
 
       <!--Comienzo de personajes-->
-      
+
       <section id="personajes" class="personajes">
         <h2>Personajes</h2>
         <div class="container">
@@ -83,9 +91,7 @@
             <p>Especie:Humano</p>
             <p>Condición:Vivo</p>
           </div>
-       
-        
-        
+
           <div class="grid-item">
             <img
               src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
@@ -96,9 +102,7 @@
             <p>Especie:Humano</p>
             <p>Condición:Vivo</p>
           </div>
-       
-        
-        
+
           <div class="grid-item">
             <img
               src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
@@ -149,7 +153,7 @@
             <p>Especie:Humano</p>
             <p>Condición:Vivo</p>
           </div>
-       
+
           <div class="grid-item">
             <img
               src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
@@ -189,7 +193,8 @@
             <p>Genero:Masculino</p>
             <p>Especie:Humano</p>
             <p>Condición:Vivo</p>
-          </div><div class="grid-item">
+          </div>
+          <div class="grid-item">
             <img
               src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
               alt="imagen de personaje"
@@ -232,22 +237,16 @@
         </div>
 
         <!--reservado para vincular personajes de la api  de rick and morty-->
-        <article>
-          
-        </article>
-       
-      </div>
+        <article></article>
       </section>
-      <section id="Mira el Show por HBO MAX">
-        <div>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdIlH1gzK3DquZ44C3-VKuZX58IQ7s8svBug&usqp=CAU"
-            alt="logo de HBO"
-          />
-        </div>
-        <h2>Mira el Show por HBO MAX</h2>
+
+      <section id="Mira el Show por HBO MAX" class="Mira el Show por HBO MAX">
+        <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ " target="_blank" >
+          <img  src="https://i.blogs.es/499822/hbo-max-logo-2019-elpoderdelasideas3/original.png "></a>
+        </section>
+        <h2>Mira la serie</h2>
         <p>Temporadas: 6 Episodios: 61</p>
-      </section>
+      
     </main>
     <footer>
       <div>
@@ -259,10 +258,12 @@
           <li>Argentina Programa</li>
         </ul>
       </div>
-      <div>
-        <nav>
-          <ul>
-            <li>
+      
+      <div class="parrafo2">
+
+        <a href="https://github.com/alejandroantonio" target="_blank">
+          
+            <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-brand-github-filled"
@@ -283,8 +284,12 @@
                 ></path>
               </svg>
               Github
-            </li>
-            <li>
+            </p>
+            </a>
+
+
+              <a href="mailto:alejandrocamiloantonio@gmail.com"target="_blank">
+              <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-brand-mailgun"
@@ -304,9 +309,8 @@
                 <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
               </svg>
               Contacto
-            </li>
-          </ul>
-        </nav>
+            </p>
+      </a>
       </div>
     </footer>
   </body>
