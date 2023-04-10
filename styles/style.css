@@ -41,6 +41,7 @@ header nav ul li {
 header nav ul li a {
   color: darkblue;
 }
+
 /*comienzo de estilos en main*/
 main{
   background-image: url(https://i.ytimg.com/vi/jQzLjISEeas/maxresdefault.jpg);
@@ -57,6 +58,7 @@ main h2 {
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 15px;
+  
   text-decoration: aliceblue;
 }
 
@@ -65,7 +67,12 @@ main p {
   text-align: justify;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+main img {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  
+}
 
 .container {
   display: flex;
@@ -112,7 +119,7 @@ footer {
 footer div nav ul {
   list-style: none;
 }
-footer div nav ul li {
+footer div nav ul li{
   padding: 5px;
   margin: 5px;
   background-color: blueviolet;
