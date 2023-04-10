@@ -16,6 +16,7 @@ header {
 header h1 {
   font-style: italic;
   font-size: 70px;
+  align-items: center;
 }
 header div {
   background-color: brown;
@@ -43,7 +44,7 @@ header nav ul li a {
 }
 
 /*comienzo de estilos en main*/
-main{
+main {
   background-image: url(https://i.ytimg.com/vi/jQzLjISEeas/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,20 +59,18 @@ main h2 {
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 15px;
-  
+
   text-decoration: aliceblue;
 }
 
 main p {
-  
   text-align: justify;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 main img {
   width: 300px;
   text-align: center;
   padding: 20px;
-  
 }
 
 .container {
@@ -93,15 +92,10 @@ main img {
   margin: 20px;
 }
 
-
 .grid-item img {
   text-align: center;
   width: 100px;
   border-radius: 50px;
-}
-.article{
-  padding: 10px;
-  box-shadow: 0px 0px 1px #000;
 }
 
 /*comienzo de estilos de footer*/
@@ -119,10 +113,10 @@ footer {
 footer div nav ul {
   list-style: none;
 }
-footer div nav ul li{
+footer p {
   padding: 5px;
   margin: 5px;
-  background-color: blueviolet;
+  background-color:darksalmon;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,6 +129,7 @@ footer div nav ul li{
   header {
     background-color: greenyellow;
     flex-direction: column;
+    text-align: center;
   }
   main {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3m_eXecxcCiA7Fiu3RXLkZp4jYP3q6mFGA&usqp=CAU);
@@ -150,7 +145,7 @@ footer div nav ul li{
   header {
     background-color: rgb(201, 122, 164);
     flex-direction: column;
-    
+    text-align: center;
   }
   header ul {
     flex-direction: column;
